@@ -50,7 +50,7 @@ const Faq = () => {
   };
 
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <section className="text-center">
         <button className="inline-flex items-center gap-2 py-2 px-4 md:py-3 md:px-7 mb-5 border border-blue-600 rounded-2xl text-lg font-medium bg-white hover:bg-blue-600 hover:text-white ">
           <span className="w-4 h-4 bg-black rounded-full" />

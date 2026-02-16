@@ -21,7 +21,7 @@ const data = [
 
 const Card = () => {
   return (
-    <div className="container mt-8 mb-8 md:mt-20 md:mb-20 md:mx-8 gap-3 md:gap-5">
+    <div className="container mt-8 md:mt-16 max-w-7xl mx-auto gap-3 md:gap-5">
       <div
         className=" card "
         style={{

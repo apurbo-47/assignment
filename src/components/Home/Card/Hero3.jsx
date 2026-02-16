@@ -37,7 +37,7 @@ const Hero3 = () => {
   };
 
   return (
-    <div className="bg-white rounded-3xl m-3 md:m-15 ">
+    <div className="bg-white rounded-3xl mt-5 max-w-7xl mx-auto ">
       <div className=" pt-5 pb-5 md:pt-10 md:pb-15 md:px-15">
         <section className="text-center">
           <button className="inline-flex items-center gap-2 py-3 px-6 border border-blue-600 rounded-2xl md:text-lg text-sm font-medium bg-white hover:bg-blue-600 hover:text-white ">

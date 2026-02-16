@@ -49,7 +49,7 @@ const DetailsCard = () => {
         </p>
       </section>
       <div>
-        <div className="card-grid">
+        <div className="card-grid max-w-7xl mx-auto">
           {services.map((item, index) => (
             <div className="card" key={index}>
               <img src={item.img} alt={item.title} />

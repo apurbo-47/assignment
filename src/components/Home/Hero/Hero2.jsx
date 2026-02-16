@@ -3,12 +3,12 @@ import CountUp from "react-countup";
 
 const Hero2 = () => {
   return (
-    <div className="border-2 m-2 md:m-15 bg-white rounded-4xl border-white">
+    <div className="border-2 mt-6 md:mt-12 max-w-7xl mx-auto bg-white rounded-4xl border-white">
       <div className="m-4 md:m-10">
         <div className="md:hero-content gap-6 md:gap-10 ">
           <img
             src="/assets/fe849a34f7597a00a2426f43d0c27e6631823dcd.png"
-            className=" w-full md:w-[50%] h-50 md:h-full rounded-4xl shadow-2xl"
+            className=" w-full md:w-[50%] h-60 md:h-full rounded-4xl shadow-2xl"
           />
           <div className="md:w-[50%]">
             <button className="border mt-3 px-4 py-2 md:px-7  md:py-3 text-xs md:text-base rounded-2xl hover:bg-black hover:text-white ">

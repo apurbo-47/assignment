@@ -2,7 +2,7 @@ import React from "react";
 
 const QuoteBox = () => {
   return (
-    <div className="bg-white my-8 md:my-20 mx-5 md:mx-15 rounded-2xl md:rounded-4xl">
+    <div className="bg-white my-8 md:my-20  max-w-7xl mx-auto rounded-2xl md:rounded-4xl">
       <div className="py-5 md:py-20 px-3 md:px-10 text-center">
         <div className="flex justify-center">
           <img

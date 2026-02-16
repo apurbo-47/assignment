@@ -4,7 +4,7 @@ import "./Books.css";
 const Books = () => {
   return (
     <div
-      className="m-5 md:m-20 rounded-4xl mb-12 "
+      className=" max-w-7xl mx-auto mb-16 rounded-4xl "
       style={{
         backgroundImage:
           "url('/assets/e0c587d7888c4417c3e240a7fd321de78d2a88df.png')",
