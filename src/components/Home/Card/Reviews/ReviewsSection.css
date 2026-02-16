@@ -1,0 +1,115 @@
+.t-section {
+  padding: 70px 20px;
+  background: #f9fbfd;
+  text-align: center;
+}
+
+.t-badge {
+  border: 1px solid #000;
+  padding: 16px 30px;
+  border-radius: 14px;
+  font-size: 20px;
+}
+
+.t-section h2 {
+  margin: 20px 0 50px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.t-slider {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  scroll-snap-type: x mandatory;
+}
+
+/* scrollbar bottom */
+.t-slider::-webkit-scrollbar {
+  height: 6px;
+}
+.t-slider::-webkit-scrollbar-track {
+  background: #e5e7eb;
+  border-radius: 10px;
+}
+.t-slider::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
+.t-card {
+  min-width: 320px;
+  background: #fff;
+  padding: 24px;
+  border-radius: 18px;
+  scroll-snap-align: center;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+  transition: 0.35s ease;
+
+  transform: scale(0.95);
+}
+
+.t-card.active {
+  background: linear-gradient(135deg, #fff2cc, #ffe49a);
+  opacity: 1;
+  transform: scale(1.03) translateY(-6px);
+}
+
+.t-card small {
+  font-weight: 600;
+}
+
+.t-card p {
+  margin: 16px 0 24px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.t-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.t-user img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.t-user span {
+  color: orange;
+  font-size: 14px;
+}
+
+/* bottom arrows */
+.t-controls {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.t-controls button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .t-section h2 {
+    font-size: 20px;
+  }
+  .t-badge {
+    border: 1px solid #000;
+    padding: 8px 16px;
+    border-radius: 14px;
+    font-size: 12px;
+  }
+}

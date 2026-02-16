@@ -1,0 +1,104 @@
+.legal-section {
+  text-align: center;
+  padding: 60px 20px 0px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 46px;
+  font-weight: 700;
+  color: #222;
+}
+
+.description {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+  .pill-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+  .legal-section {
+    padding: 20px 10px;
+  }
+}
+
+/* ImageCardGrid.css */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* ✅ Mobile: 1 grid */
+  gap: 12px;
+  padding: 10px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 36px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 36px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-body h3 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.card-body p {
+  font-size: 18px;
+  color: #4c4c4c;
+  margin-bottom: 12px;
+}
+
+.card-body a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+  text-decoration: underline;
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px;
+    gap: 20px;
+    border-radius: 40px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

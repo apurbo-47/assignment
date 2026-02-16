@@ -1,0 +1,28 @@
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  background: #f5f5f5;
+  border-radius: 14px;
+  padding: 6px;
+}
+
+.input-wrapper input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.input-wrapper button {
+  background: black;
+  color: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,0 +1,11 @@
+.avatars img {
+  position: absolute;
+  width: 288px;
+  height: 270px;
+}
+
+@media (max-width: 768px) {
+  .avatars {
+    display: none; /* shudu majkhaner ta thakbe */
+  }
+}
