@@ -7,7 +7,7 @@ const Hero = () => {
         <h3 className="text-[#333333] text-xs md:text-xl font-medium ">
           Premium Legal Service
         </h3>
-        <img src="public/assets/Frame 2147229436.png" alt="" />
+        <img src="/assets/Frame-2147229436.png" alt="" />
       </div>
       <h1 className=" text-5xl md:text-[204px] text-[#333333] text-center  font-bold">
         JACOB JONES
@@ -21,7 +21,7 @@ const Hero = () => {
       <div>
         <img
           className=" rounded-lg md:rounded-none mx-auto aspect-video md:w-full"
-          src="public/assets/bee58f4d626b9d8baa5bfed861927b6933e5dfc1 (1).jpg"
+          src="/assets/bee58f4d.jpg"
           alt=""
         />
       </div>

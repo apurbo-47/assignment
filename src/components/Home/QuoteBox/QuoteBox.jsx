@@ -7,7 +7,7 @@ const QuoteBox = () => {
         <div className="flex justify-center">
           <img
             className="w-8 h-8 md:w-25 md:h-25"
-            src="public/assets/22a070fdd2e2a2d134a280d9c8a6959ae09e226e.png"
+            src="/assets/22a070fdd2e2a2d134a280d9c8a6959ae09e226e.png"
             alt=""
           />
         </div>

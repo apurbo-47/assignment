@@ -12,7 +12,7 @@ const Footer = () => {
     <footer
       className="footer mt-20 "
       style={{
-        backgroundImage: "url('public/assets/image 1978.png')",
+        backgroundImage: "url('/assets/image1978.png')",
         backgroundSize: "cover",
         height: "110px",
       }}
@@ -21,7 +21,7 @@ const Footer = () => {
         {/* Logo */}
         <img
           className="bg-white rounded-lg"
-          src="public/assets/Mask group.png"
+          src="/assets/Mask-group.png"
           alt=""
         />
 

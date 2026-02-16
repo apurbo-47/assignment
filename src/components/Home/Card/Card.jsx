@@ -25,7 +25,7 @@ const Card = () => {
       <div
         className=" card "
         style={{
-          backgroundImage: "url('public/assets/Group 1.png')",
+          backgroundImage: "url('/assets/Group1.png')",
           backgroundSize: "cover",
         }}
       >
@@ -42,7 +42,7 @@ const Card = () => {
         <div
           className="card"
           style={{
-            backgroundImage: "url('public/assets/Group 1.png')",
+            backgroundImage: "url('/assets/Group1.png')",
           }}
           key={index}
         >

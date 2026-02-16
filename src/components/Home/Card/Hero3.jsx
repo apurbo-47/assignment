@@ -37,10 +37,10 @@ const Hero3 = () => {
   };
 
   return (
-    <div className="bg-white m-3 md:m-15">
+    <div className="bg-white rounded-3xl m-3 md:m-15 ">
       <div className=" pt-5 pb-5 md:pt-10 md:pb-15 md:px-15">
         <section className="text-center">
-          <button className="inline-flex items-center gap-2 py-3 px-6 border border-green-400 rounded-2xl md:text-lg text-sm font-medium bg-white hover:bg-green-400 hover:text-white ">
+          <button className="inline-flex items-center gap-2 py-3 px-6 border border-blue-600 rounded-2xl md:text-lg text-sm font-medium bg-white hover:bg-blue-600 hover:text-white ">
             <span className="w-4 h-4 bg-black rounded-full" />
             Why Choose Me
           </button>
@@ -78,7 +78,7 @@ const Hero3 = () => {
             {/* RIGHT - IMAGE */}
             <div className="legal-image">
               <img
-                src="public/assets/e1bc4f2d4da0d41d1ae8864d23fe40c1a2b7df3a.png"
+                src="/assets/e1bc4f2d4da0d41d1ae8864d23fe40c1a2b7df3a.png"
                 alt="Justice Scale"
               />
             </div>

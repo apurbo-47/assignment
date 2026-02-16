@@ -7,11 +7,11 @@ const Hero2 = () => {
       <div className="m-4 md:m-10">
         <div className="md:hero-content gap-6 md:gap-10 ">
           <img
-            src="public/assets/fe849a34f7597a00a2426f43d0c27e6631823dcd.png"
+            src="/assets/fe849a34f7597a00a2426f43d0c27e6631823dcd.png"
             className=" w-full md:w-[50%] h-50 md:h-full rounded-4xl shadow-2xl"
           />
-          <div>
-            <button className="border mt-3 px-2 md:px-7 py-1 md:py-3 text-xs md:text-base rounded-2xl hover:bg-black hover:text-white ">
+          <div className="md:w-[50%]">
+            <button className="border mt-3 px-4 py-2 md:px-7  md:py-3 text-xs md:text-base rounded-2xl hover:bg-black hover:text-white ">
               About Me
             </button>
             <h1 className="text-sm md:text-5xl font-bold py-2 md:py-6 text-[#333333]">
@@ -49,7 +49,7 @@ const Hero2 = () => {
                   <p>/7</p>
                 </div>
 
-                <p className="text-xs mt-3  ">Legal Support</p>
+                <p className="text-xs mt-3">Legal Support</p>
               </div>
             </div>
           </div>

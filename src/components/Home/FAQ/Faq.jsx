@@ -52,7 +52,7 @@ const Faq = () => {
   return (
     <div>
       <section className="text-center">
-        <button className="inline-flex items-center gap-2 py-2 px-4 md:py-3 md:px-7 mb-5 border border-green-400 rounded-2xl text-lg font-medium bg-white hover:bg-green-400 hover:text-white ">
+        <button className="inline-flex items-center gap-2 py-2 px-4 md:py-3 md:px-7 mb-5 border border-blue-600 rounded-2xl text-lg font-medium bg-white hover:bg-blue-600 hover:text-white ">
           <span className="w-4 h-4 bg-black rounded-full" />
           FAQ
         </button>
@@ -66,7 +66,7 @@ const Faq = () => {
           <div>
             <img
               className="w-full h-80 md:h-100"
-              src="public/assets/Frame 2147230090.png"
+              src="/assets/Frame2147230090.png"
               alt=""
             />
             <div className="bg-white py-5 px-7 mt-5 rounded-4xl">

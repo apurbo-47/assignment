@@ -73,7 +73,7 @@ const ReviewsSection = () => {
   return (
     <div>
       <section className="t-section">
-        <button className="inline-flex items-center gap-2 py-2 px-4 md:py-4 md:px-7 border border-green-400 rounded-2xl text-lg font-medium bg-white hover:bg-green-400 hover:text-white ">
+        <button className="inline-flex items-center gap-2 py-2 px-4 md:py-4 md:px-7 border border-blue-600 rounded-2xl text-lg font-medium bg-white hover:bg-blue-600 hover:text-white ">
           <span className="w-4 h-4 bg-black rounded-full" />
           Testimonial
         </button>
@@ -92,7 +92,7 @@ const ReviewsSection = () => {
               <p>{item.text}</p>
               <div className="t-user">
                 <img
-                  src="public/assets/5968230c8f9671fbd2f489abba125af746e76516.png"
+                  src="/assets/5968230c8f9671fbd2f489abba125af746e76516.png"
                   alt=""
                 />
                 <div>

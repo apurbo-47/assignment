@@ -16,7 +16,7 @@ const ScrollBar = () => {
         <div className="scroll-track">
           {[...items, ...items].map((item, index) => (
             <div key={index} className="scroll-item">
-              <img src="public/assets/Frame.png" alt="" /> {item}
+              <img src="/assets/Frame.png" alt="" /> {item}
             </div>
           ))}
         </div>
