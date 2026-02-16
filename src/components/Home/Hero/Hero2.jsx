@@ -7,7 +7,7 @@ const Hero2 = () => {
       <div className="m-4 md:m-10">
         <div className="md:hero-content gap-6 md:gap-10 ">
           <img
-            src="src/assets/fe849a34f7597a00a2426f43d0c27e6631823dcd.png"
+            src="public/assets/fe849a34f7597a00a2426f43d0c27e6631823dcd.png"
             className=" w-full md:w-[50%] h-50 md:h-full rounded-4xl shadow-2xl"
           />
           <div>

@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar">
         {/* Logo */}
         <div className="logo">
-          <img src="src/assets/Mask group.png" alt="" />
+          <img src="public/assets/Mask group.png" alt="" />
         </div>
 
         {/* Menu */}

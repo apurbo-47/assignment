@@ -78,7 +78,7 @@ const Hero3 = () => {
             {/* RIGHT - IMAGE */}
             <div className="legal-image">
               <img
-                src="src/assets/e1bc4f2d4da0d41d1ae8864d23fe40c1a2b7df3a.png"
+                src="public/assets/e1bc4f2d4da0d41d1ae8864d23fe40c1a2b7df3a.png"
                 alt="Justice Scale"
               />
             </div>

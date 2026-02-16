@@ -7,13 +7,13 @@ const Books = () => {
       className="m-5 md:m-20 rounded-4xl mb-12 "
       style={{
         backgroundImage:
-          "url('src/assets/e0c587d7888c4417c3e240a7fd321de78d2a88df.png')",
+          "url('public/assets/e0c587d7888c4417c3e240a7fd321de78d2a88df.png')",
         backgroundSize: "cover",
       }}
     >
       <div className="grid md:grid-cols-3 justify-center text-center ">
         <div className="avatars m-20">
-          <img src="src/assets/Group 1707480877.png" alt="" />
+          <img src="public/assets/Group 1707480877.png" alt="" />
         </div>
         <div className="mt-8 mb-8 md:mt-16 md:mb-16">
           <h1 className="md:text-4xl text-xl text-white font-bold  mb-6">
@@ -28,7 +28,7 @@ const Books = () => {
           </button>
         </div>
         <div className="avatars m-20">
-          <img src="src/assets/Group 1707480878.png" alt="" />
+          <img src="public/assets/Group 1707480878.png" alt="" />
         </div>
       </div>
     </div>

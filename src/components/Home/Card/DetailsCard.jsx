@@ -5,32 +5,32 @@ const services = [
   {
     title: "Corporate Law",
     desc: "Strategic counsel for mergers, acquisitions, and corporate governance matters.",
-    img: "src/assets/032b7d1648ac464686803af350c5903db03ea6c8.png",
+    img: "public/assets/032b7d1648ac464686803af350c5903db03ea6c8.png",
   },
   {
     title: "Criminal Defense",
     desc: "Aggressive representation for white-collar crimes and federal investigations.",
-    img: "src/assets/21666982dd0b3666648ec128a104ada48c8bc695.png",
+    img: "public/assets/21666982dd0b3666648ec128a104ada48c8bc695.png",
   },
   {
     title: "Family Law",
     desc: "Compassionate guidance through divorce, custody, and estate planning.",
-    img: "src/assets/270001d28f908076b4abf258be7d3ed8960ad8b7.png",
+    img: "public/assets/270001d28f908076b4abf258be7d3ed8960ad8b7.png",
   },
   {
     title: "Real Estate",
     desc: "Commercial and residential property transactions, zoning, and disputes.",
-    img: "src/assets/4cb6d9f002ed223096c8f9b995e9c537da911379.png",
+    img: "public/assets/4cb6d9f002ed223096c8f9b995e9c537da911379.png",
   },
   {
     title: "Civil Litigation",
     desc: "Resolving complex disputes through mediation, arbitration, or trial.",
-    img: "src/assets/8c1657028de4b4845fc8e84deb8af2ce7182b207.png",
+    img: "public/assets/8c1657028de4b4845fc8e84deb8af2ce7182b207.png",
   },
   {
     title: "Intellectual Property",
     desc: "Protecting your trademarks, copyrights, and trade secrets.",
-    img: "src/assets/c54e362b890eedef09e02f278559330dfce6430a.png",
+    img: "public/assets/c54e362b890eedef09e02f278559330dfce6430a.png",
   },
 ];
 

@@ -92,7 +92,7 @@ const ReviewsSection = () => {
               <p>{item.text}</p>
               <div className="t-user">
                 <img
-                  src="src/assets/5968230c8f9671fbd2f489abba125af746e76516.png"
+                  src="public/assets/5968230c8f9671fbd2f489abba125af746e76516.png"
                   alt=""
                 />
                 <div>

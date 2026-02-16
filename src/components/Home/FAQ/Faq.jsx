@@ -66,7 +66,7 @@ const Faq = () => {
           <div>
             <img
               className="w-full h-80 md:h-100"
-              src="src/assets/Frame 2147230090.png"
+              src="public/assets/Frame 2147230090.png"
               alt=""
             />
             <div className="bg-white py-5 px-7 mt-5 rounded-4xl">
